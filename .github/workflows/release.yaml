@@ -2,6 +2,7 @@ name: Release
 on:
   release:
     types: [published]
+  workflow_dispatch:
 jobs:
   build_pcb2blender_exporter:
     name: Build pcb2blender_exporter KiCad Addon
